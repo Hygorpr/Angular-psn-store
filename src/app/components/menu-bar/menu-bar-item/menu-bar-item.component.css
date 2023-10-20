@@ -1,0 +1,34 @@
+
+.menu-bar-item{
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar-item > ul{
+  display: flex;
+  list-style: none;
+}
+
+.menu-bar-item > ul > li{
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.menu-bar-item > ul > li > a{
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-family: 'Segoe UI';
+}
+
+.menu-bar-item > ul > li > a:hover{
+  color: blue;
+  font-weight: 600;
+}
+.menu-bar-item > ul > li > a{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-inline-start: 200px;
+}
